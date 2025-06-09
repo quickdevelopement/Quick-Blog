@@ -1,8 +1,8 @@
 # Quick Blog
 ***Laravel 12 Fullstack Blog Website***
 
-- [x] [Facebook]('https://www.facebook.com/quickdevelopment0')
-- [x] [Youtube]('https://www.youtube.com/@quickdevelopments')
+- [x] [Facebook]('https://www.facebook.com/quickdevelopment0');
+- [x] [Youtube]('https://www.youtube.com/@quickdevelopments');
 
 
 ## Project Feature

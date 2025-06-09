@@ -11,7 +11,7 @@ class DashboardController extends Controller
 {
     public function index()
     {
-        $posts = Post::latest()->get();
+        $posts = Post::latest()->paginate(5);
         $users = User::all();
         $categories = Category::all();
         return view('dashboard.index', ['posts' => $posts, 'users' => $users, 'categories' => $categories]);

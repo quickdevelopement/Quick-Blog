@@ -1,4 +1,4 @@
-<nav class="fixed top-0 z-50 w-full bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+<nav class="fixed top-0 z-50 w-full shadow-md shadow-gray-400 bg-green-200 border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
     <div class="px-3 py-3 lg:px-5 lg:pl-3">
         <div class="flex items-center justify-between">
             <div class="flex items-center justify-start rtl:justify-end">
@@ -22,7 +22,7 @@
             <div class="flex items-center">
                 <div class="flex items-center  ms-3">
                     <div class="flex items-center gap-4">
-                        <h4 class="text-xl font-bold text-green-600">{{ auth()->user()->name }}</h4>
+                        <h4 class="text-xl font-bold text-black">{{ auth()->user()->name }}</h4>
                         <button type="button"
                             class="flex text-sm bg-gray-800 rounded-full focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
                             aria-expanded="false" data-dropdown-toggle="dropdown-user">

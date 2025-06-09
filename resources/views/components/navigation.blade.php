@@ -7,7 +7,7 @@ if (auth()->check()) {
 ?>
 
 
-<nav class="bg-white border-gray-200 dark:bg-gray-900">
+<nav class="bg-white border-gray-200 dark:bg-gray-900 shadow-md shadow-gray-400 mb-10">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="{{ route('posts.index') }}" class="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="/logo/quick-development.png" class="h-8" alt="Flowbite Logo" />
